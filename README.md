@@ -3,10 +3,12 @@ This is our data generator used in development of data dashboard. It emulates ba
 
 ## Data
 Generator generates this data:
+- MessageId
 - Temperature
 - Pressure
-- Speed
-- Height above sea level
+- Humidity
+- Light Intensity
+- Altitude
+- Date
+- Time
 - GPS coordinates of our school
-
-
