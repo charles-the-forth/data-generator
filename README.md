@@ -9,6 +9,7 @@ Generator generates this data:
 - Humidity
 - Light Intensity
 - Altitude
+- Number of satellites
 - Date
 - Time
 - GPS coordinates of our school

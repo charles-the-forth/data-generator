@@ -11,13 +11,13 @@ void setup() {
 }
 
 void loop() {
-  float temperature = random(239,256) / 10.0;
-  float pressure = random(9959,10105) / 10.0;
-  float humidity = random(1,1000) / 10.0;
-  uint32_t lightIntensity = random(1000,5000);
-  float altitude = random(2390,10000) / 10.0;
+  float temperature = random(239, 256) / 10.0;
+  float pressure = random(9959, 10105) / 10.0;
+  float humidity = random(1, 1000) / 10.0;
+  uint32_t lightIntensity = random(1000, 5000);
+  float altitude = random(2390, 10000) / 10.0;
   uint8_t numberOfSatellites = random(0, 6);
-  uint16_t latInt = 502;
+  uint16_t latInt = 5002;
   uint16_t lonInt = 1546;
   uint32_t latAfterDot = 2308;
   uint32_t lonAfterDot = 79412;
@@ -29,18 +29,18 @@ void loop() {
 
   if (second >= 60) {
     second = 0;
-    minute++;  
+    minute++;
   }
 
 
   if (minute >= 60) {
     minute = 0;
-    hour++;  
+    hour++;
   }
 
   if (hour >= 24) {
     hour = 0;
-    day++;  
+    day++;
   }
 
   messageId++;
