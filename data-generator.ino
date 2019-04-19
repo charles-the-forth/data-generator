@@ -43,5 +43,7 @@ void loop() {
     day++;  
   }
 
+  messageId++;
+
   delay(1000);
 }
