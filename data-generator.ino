@@ -21,7 +21,7 @@ void loop() {
   float altitudeCanSat = random(2390,10000) / 10.0;
   float altitudeExternal = random(2390,10000) / 10.0;
   uint8_t numberOfSatellites = random(0, 6);
-  uint16_t latInt = 502;
+  uint16_t latInt = 5002;
   uint16_t lonInt = 1546;
   uint32_t latAfterDot = 2308;
   uint32_t lonAfterDot = 79412;
